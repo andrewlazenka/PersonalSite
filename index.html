@@ -1,0 +1,99 @@
+<html>
+	<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel='icon'  href='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Cog_circle.svg/196px-Cog_circle.svg.png' type='image/x-icon'>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/index.css">
+		<title>Andrew Lazenka</title>
+	</head>
+	<body>
+    <header>
+      <div class='navbar-left'>
+        <a href='http://www.andrewlazenka.com' class='navbar-button-content'>Andrew Lazenka</a>
+      </div>
+      <nav id='navbar' class='navbar'>
+        <a href='#' id='toggle-nav' onclick="return prevent_default(event);" class='toggle-nav'><i class="fa fa-bars"></i></a>
+        <ul id='nav-ul' class='nav-ul'>
+          <li onclick="change_page('about_link');" class="navbar-button">
+            <a id="about_link" href="#about" class='navbar-button-content'>About</a>
+          </li>
+          <li onclick="change_page('work_link');" class="navbar-button">
+            <a id="work_link" href="#work"  class='navbar-button-content'>Work & Experience</a>
+          </li>
+          <li onclick="change_page('projects_link');" class="navbar-button">
+            <a id="projects_link" href="#projects"  class='navbar-button-content'>Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home-banner">
+        <div class="banner-inner">
+          <h1>Andrew Lazenka</h1>
+          <p>Full-Stack Developer, Programming Enthusiast, Problem Solver</p>
+        </div>
+      </section>
+      <div class="page-background">
+        <section class="profile-card" id="about">
+          <div class="profile-contents">
+            <h1 class="profile-name">About</h1>
+            <p class="profile-info">
+              I am a student currently in my third year at Queen's University pursuing a Bachelor in Computer Science with a specialization in Software Design.<br /><br />
+              I have a passion for learning new technologies and incorporating them into my work. Feel free to check out some of the projects I have been working on,
+              you can find those below along with a live demo of each just a click away.<br /><br />
+              Creating products that users feel good about using is something that I strive for in my work. The purpose of building a piece of software is to
+              solve a problem, and the end user is always satisfied if your product can do that for them in the simplest way possible.
+            </p>
+          </div>
+        </section>
+        <section class="work-card" id="work">
+          <h1 class="work-title">Work & Experience</h1>
+          <div class="work-strip-picture-left">
+            <div class="strip-image">
+              <img src="http://www.innovasium.com/img/crown.png" class="inno-image" />
+            </div>
+            <div class="strip-content">
+              <h3>Innovasium Digital | <i>Full Stack Developer</i></h3>
+              <p>Developed a React/Redux frontend for a internal portal creation system, alongside a web API running Ruby on Rails.</p>
+            </div>
+          </div>
+          <div class="work-strip-picture-right">
+            <div class="strip-image">
+              <img src="http://www.innovasium.com/img/crown.png" class="inno-image" />
+            </div>
+            <div class="strip-content">
+              <h3>Innovasium Digital | <i>Backend Developer</i></h3>
+              <p>Architected a Ruby on Rails API with unit test coverage for a portal creation system.</p>
+            </div>
+          </div>
+        </section>
+        <section class="projects-card" id="projects">
+          <h1 class="projects-name">Projects</h1>
+          <div class="projects-items">
+            <div class="projects-single-item">
+              <div class="projects-ufbis-image"></div>
+              <h3 class="projects-card-title">UFBIS</h3>
+              <div class="projects-card-description">Internal Systems Application</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <ul class="contact-icons">
+        <li><a href="https://www.github.com/ALazenka" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/andrew-lazenka-182627126/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/alazenka/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:andrew@lazenka.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+      </ul>
+      <div class="copyright">Made with&nbsp<i class="fa fa-code" aria-hidden="true"></i>&nbsp~ Andrew Lazenka 2017 </div>
+    </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="src/index.js"></script>
+	</body>
+</html>
+
+    
